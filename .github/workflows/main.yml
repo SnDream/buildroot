@@ -22,7 +22,7 @@ jobs:
 
     strategy:
       matrix:
-        target: ['lepus', 'gcw0', 'rs90']
+        target: ['rs90']
     steps:
     - uses: actions/checkout@v3
       with:
